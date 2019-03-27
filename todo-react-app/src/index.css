@@ -22,7 +22,7 @@ body {
 }
 
 .header-left {
-  background: url("images/di_to-do-p1.svg") no-repeat center;
+  background: url('./images/di_to-do-p1.svg') no-repeat center;
   width: 8%;
   min-width: 105px;
 }
@@ -35,12 +35,12 @@ body {
 }
 
 .header-right {
-  background: url("images/di_to-do-p3.svg") no-repeat center;
+  background: url('./images/di_to-do-p3.svg') no-repeat center;
   width: 4%;
   min-width: 50px;
 }
 
-.main {
+#main {
   display: flex;
   flex-flow: row wrap;
   margin: 50px 0;
@@ -69,7 +69,7 @@ body {
 .todo-header-bar .remove-list-btn {
   float: right;
   border: none;
-  background: url(images/delete.svg) no-repeat center;
+  background: url('./images/delete.svg') no-repeat center;
   width: 14px;
   height: 18px;
 }
@@ -166,15 +166,16 @@ body {
   top: 5px;
   width: 11px;
   height: 10px;
-  background: url("images/Path 2.svg") no-repeat center;
+  background: url('images/path.svg') no-repeat center;
 }
 
+/*
 .add-btn-container {
   padding-right: 60px;
 }
 
 .add-list-btn {
-  background: url("images/Add.svg") no-repeat center;
+  background: url('images/add.svg') no-repeat center;
   border: none;
   width: 60px;
   height: 60px;
@@ -186,6 +187,7 @@ body {
 .add-list-btn:focus {
   outline: none;
 }
+*/
 
 #sidebar {
   height: 100%;
@@ -201,7 +203,7 @@ body {
 .close-sidebar {
   float: right;
   border: none;
-  background: url(images/close.svg) no-repeat center;
+  background: url('./images/close.svg') no-repeat center;
   width: 14px;
   height: 18px;
 }

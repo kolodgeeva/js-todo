@@ -1,0 +1,18 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "Server for the to-do list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kirill Shmidt",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "uuid": "^3.2.1"
+  }
+}
